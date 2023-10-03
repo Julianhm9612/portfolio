@@ -2,7 +2,7 @@
     {
         "title": "ELK template",
         "description": "This repository will allow you to build the elk stack within a docker architecture.",
-        "img": "/elk.png",
+        "img": "elk.png",
         "skills": [
             { "title": "ELK" },
             { "title": "Docker" }
@@ -13,7 +13,7 @@
     {
         "title": "Spring Boot demo",
         "description": "A simple example of log handling in spring boot",
-        "img": "/spring-boot-docker.png",
+        "img": "spring-boot-docker.png",
         "skills": [
             { "title": "Java" },
             { "title": "Spring Boot" },
