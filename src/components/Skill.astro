@@ -1,0 +1,11 @@
+---
+interface Props {
+    title: string
+}
+
+const { title } = Astro.props
+---
+
+<li class="flex items-center border border-black rounded-3xl px-2 py-1 cursor-default hover:bg-black hover:text-white transition-colors">
+    <p class="text-sm">{title}</p>
+</li>

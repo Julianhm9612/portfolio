@@ -1,0 +1,125 @@
+[
+    {
+        "title": "HTML"
+    },
+    {
+        "title": "CSS"
+    },
+    {
+        "title": "JavaScript"
+    },
+    {
+        "title": "Tailwindcss"
+    },
+    {
+        "title": "Sass"
+    },
+    {
+        "title": "Astro"
+    },
+    {
+        "title": "Angular 2+"
+    },
+    {
+        "title": "ReactJs"
+    },
+    {
+        "title": "VueJS"
+    },
+    {
+        "title": "NextJs"
+    },
+    {
+        "title": "AngularJS"
+    },
+    {
+        "title": "React native"
+    },
+    {
+        "title": "Jest"
+    },
+    {
+        "title": "Cypress"
+    },
+    {
+        "title": "Webpack"
+    },
+    {
+        "title": "GruntJs"
+    },
+    {
+        "title": "NodeJs"
+    },
+    {
+        "title": "ExpressJS"
+    },
+    {
+        "title": "NestJs"
+    },
+    {
+        "title": "Java"
+    },
+    {
+        "title": "Spring Boot"
+    },
+    {
+        "title": "Jasper Reports"
+    },
+    {
+        "title": "JSP"
+    },
+    {
+        "title": "JSF"
+    },
+    {
+        "title": "PHP"
+    },
+    {
+        "title": "Laravel"
+    },
+    {
+        "title": "Slim"
+    },
+    {
+        "title": "Python"
+    },
+    {
+        "title": "Sockets"
+    },
+    {
+        "title": "JWT"
+    },
+    {
+        "title": "Kubernetes"
+    },
+    {
+        "title": "Docker"
+    },
+    {
+        "title": "Elastic stack"
+    },
+    {
+        "title": "PostgreSQL"
+    },
+    {
+        "title": "Oracle PL/SQL"
+    },
+    {
+        "title": "MongoDB"
+    },
+    {
+        "title": "RethinkDB"
+    },
+    {
+        "title": "MySQL"
+    },
+    {
+        "title": "Micro-Frontends"
+    },
+    {
+        "title": "Microservices"
+    },
+    {
+        "title": "Integration architecture"
+    }
+]

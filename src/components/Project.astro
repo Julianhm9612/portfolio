@@ -1,0 +1,42 @@
+---
+import type { Skill } from '../types/skill'
+import Arcade from './Arcade.astro'
+import Github from './Github.astro'
+import Skillbadge from './Skill.astro'
+
+interface Props {
+    title: string
+    description: string
+    img: string
+    skills: Skill[]
+    github: string
+    demo: string
+}
+
+const { title, description, img, skills, github, demo } = Astro.props
+---
+
+<article class="flex justify-center items-center gap-4 border border-black rounded-3xl p-5">
+    <img class="rounded-3xl w-60" src={img} alt={title} />
+    <div class="flex flex-col justify-between">
+        <div class="flex flex-col items-center gap-2">
+            <h1 class="font-bold text-xl">{title}</h1>
+            <p class="text-sm text-gray-600">
+                {description}
+            </p>
+            <ul class="flex flex-wrap gap-1 py-2 w-full">
+                {skills.map(
+                    skill => <Skillbadge title={skill.title} />
+                )}
+            </ul>
+        </div>
+        <div class="flex gap-2 justify-between pt-2">
+            <a href={github} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
+                Code <Github />
+            </a>
+            <a href={demo} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
+                Live demo <Arcade />
+            </a>
+        </div>
+    </div>
+</article>
