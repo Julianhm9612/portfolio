@@ -1,0 +1,26 @@
+---
+import type { Skill } from '../types/skill'
+import Skillbadge from './Skill.astro'
+
+interface Props {
+    title: string
+    company: string
+    description: string
+    startDate: string
+    endDate: string
+    skills: Skill[]
+}
+
+const { title, company, description, startDate, endDate, skills } = Astro.props
+---
+
+<article class="flex flex-col justify-center border border-black rounded-3xl px-7 py-5">
+    <h1 class="font-bold text-xl">{title}</h1>
+    <h2 class="text-sm">{company}</h2>
+    <p class="text-sm text-gray-600">{startDate} - {endDate}</p>
+    <ul class="flex flex-wrap gap-1 py-2">
+        {skills.map(
+            skill => <Skillbadge title={skill.title} />
+        )}
+    </ul>
+</article>

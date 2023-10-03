@@ -1,0 +1,33 @@
+---
+import Books from './Books.astro'
+import Medal from './Medal.astro'
+---
+
+<section class="flex flex-col justify-center items-center gap-12 h-screen">
+    <div class="flex flex-col text-center w-full">
+        <p class="text-sm text-gray-600">Get to know more</p>
+        <h1 class="font-bold text-3xl">About me</h1>
+    </div>
+    <div class="flex items-center gap-12 max-w-5xl">
+        <img class="rounded-3xl w-96" src="/me-2.jpeg" alt="Julian Henao Marin" />
+        <div class="flex flex-col gap-12">
+            <div class="flex gap-12">
+                <div class="flex flex-col items-center border border-black rounded-3xl px-14 py-5">
+                    <Medal />
+                    <h1 class="font-bold text-xl">Experience</h1>
+                    <p class="text-sm text-gray-600">5+ years</p>
+                    <p class="text-sm text-gray-600">Fullstack development</p>
+                </div>
+                <div class="flex flex-col items-center border border-black rounded-3xl px-14 py-5">
+                    <Books />
+                    <h1 class="font-bold text-xl">Education</h1>
+                    <p class="text-sm text-gray-600">Informatics Engineering</p>
+                </div>
+            </div>
+            <p class="text-justify text-sm text-gray-600 w-[573.8px]">
+                I am a Full Stack Developer with more than 5 years of experience. I am currently focused on frontend development and learning react and astro.
+                I love sharing knowledge and learning from others. I am very passionate about video games, painting and of course, technology.
+            </p>
+        </div>
+    </div>
+</section>

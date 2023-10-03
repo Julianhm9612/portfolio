@@ -1,0 +1,27 @@
+[
+    {
+        "title": "ELK template",
+        "description": "This repository will allow you to build the elk stack within a docker architecture.",
+        "img": "/elk.png",
+        "skills": [
+            { "title": "ELK" },
+            { "title": "Docker" }
+        ],
+        "github": "https://github.com/Julianhm9612/docker-elk-stack",
+        "demo": ""
+    },
+    {
+        "title": "Spring Boot demo",
+        "description": "A simple example of log handling in spring boot",
+        "img": "/spring-boot-docker.png",
+        "skills": [
+            { "title": "Java" },
+            { "title": "Spring Boot" },
+            { "title": "PostgreSQL" },
+            { "title": "Jib" },
+            { "title": "Docker" }
+        ],
+        "github": "https://github.com/Julianhm9612/spring-boot-logs-api",
+        "demo": ""
+    }
+]

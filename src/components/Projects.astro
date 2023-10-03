@@ -1,0 +1,19 @@
+---
+import Project from './Project.astro'
+import { getProjects } from '../services/projects'
+
+const projects = getProjects()
+---
+
+<section class="flex flex-col justify-center items-center gap-12 h-screen">
+    <div class="flex flex-col text-center w-full">
+        <p class="text-sm text-gray-600">Browse my recent</p>
+        <h1 class="font-bold text-3xl">Projects</h1>
+    </div>
+
+    <div class="grid grid-cols-2 gap-4 max-w-5xl">
+        {projects.map(
+            project => <Project title={project.title} description={project.description} img={project.img} skills={project.skills} github={project.github} demo={project.demo} />
+        )}
+    </div>
+</section>
