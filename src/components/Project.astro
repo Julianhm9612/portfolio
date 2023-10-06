@@ -34,9 +34,11 @@ const { title, description, img, skills, github, demo } = Astro.props
             <a href={github} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
                 Code <Github />
             </a>
-            <a href={demo} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
-                Live demo <Arcade />
-            </a>
+            {demo &&
+                <a href={demo} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
+                    Live demo <Arcade />
+                </a>
+            }
         </div>
     </div>
 </article>
