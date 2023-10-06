@@ -3,15 +3,15 @@ import Github from './Github.astro'
 import Linkedin from './Linkedin.astro'
 ---
 
-<section class="flex justify-center items-center gap-12 h-screen">
-    <img class="rounded-full w-96" src="me.jpeg" alt="Julian Henao Marin" />
+<section class="flex flex-col justify-center items-center gap-12 min-h-screen md:flex-row">
+    <img class="rounded-full w-60 md:w-80 lg:w-96" src="me.jpeg" alt="Julian Henao Marin" />
     <div class="flex flex-col gap-2 text-center">
         <p class="text-sm text-gray-600">Hello, i'm</p>
         <h1 class="font-bold text-3xl">Julian Henao Marin</h1>
         <h3 class="text-xl">Software developer</h3>
         <div class="flex gap-2 py-4 justify-center">
             <button class="bg-white border border-gray-700 text-black text-sm rounded-full p-3 hover:bg-black hover:text-white transition-colors">Download CV</button>
-            <button class="bg-gray-700 text-white text-sm rounded-full p-3 hover:bg-black transition-colors">Contact info</button>
+            <a href="#contact" class="bg-gray-700 text-white text-sm rounded-full p-3 cursor-pointer hover:bg-black transition-colors">Contact info</a>
         </div>
         <div class="flex gap-4 justify-center">
             <a href="https://www.linkedin.com/in/julianhm9612" target="_blank" class="p-2 border border-white rounded-full text-gray-700 hover:text-black hover:border-black transition-colors" rel="noopener">
