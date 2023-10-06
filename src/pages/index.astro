@@ -9,23 +9,23 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Julian Henao Marin">
-	<main class="snap-y snap-mandatory relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth">
+	<main class="snap-none relative w-full h-screen overflow-y-auto overflow-x-hidden scroll-smooth p-5 md:snap-y md:snap-mandatory">
 		<div class="snap-center">
 			<Intro />
 		</div>
-		<div class="snap-center">
+		<div class="snap-center my-10 md:my-0">
 			<About />
 		</div>
-		<div class="snap-center">
+		<div class="snap-center my-10 md:my-0">
 			<Projects />
 		</div>
-		<div class="snap-center">
-			<Skills />
-		</div>
-		<div class="snap-center">
+		<div class="snap-center my-10 md:my-0">
 			<Experience />
 		</div>
-		<div class="snap-center">
+		<div class="snap-center my-10 md:my-0">
+			<Skills />
+		</div>
+		<div class="snap-center my-10 md:my-0">
 			<Contact />
 		</div>
 	</main>
