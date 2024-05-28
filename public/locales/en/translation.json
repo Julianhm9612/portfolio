@@ -1,0 +1,55 @@
+{
+  "header": {
+    "name": "Julian Henao Marin",
+    "menu": [
+      "About",
+      "Projects",
+      "Experience",
+      "Skills",
+      "Contact"
+    ]
+  },
+  "intro": {
+    "greeting": "Hello, I'm",
+    "name": "Julian Henao Marin",
+    "title":" Software developer",
+    "cv": "Download CV",
+    "contact": "Contact info"
+  },
+  "about": {
+    "more": "Get to know more",
+    "about": "About me",
+    "experience": "Experience",
+    "years": "5+ years",
+    "jobTitle": "Fullstack development",
+    "education": "Education",
+    "educationTitle": "Informatics Engineering",
+    "summary": "I am a Full Stack Developer with more than 5 years of experience. I am currently focused on frontend development and learning react and astro. I love sharing knowledge and learning from others. I am very passionate about video games, painting and of course, technology."
+  },
+  "projects": {
+    "browse": "Browse my recent",
+    "title": "Projects",
+    "project": {
+      "code": "Code",
+      "demo": "Live demo"
+    }
+  },
+  "experience": {
+    "browse": "Explore my",
+    "title": "Experience"
+  },
+  "skills": {
+    "browse": "Explore my",
+    "title": "Skills"
+  },
+  "contact": {
+    "touch": "Get in touch",
+    "title": "Contact me",
+    "form": {
+      "email": "Email",
+      "name": "Name",
+      "message": "Message",
+      "send": "Send"
+    }
+  }
+}
