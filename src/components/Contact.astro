@@ -1,11 +1,12 @@
 ---
+import { t } from 'i18next';
 import Linkedin from './Linkedin.astro'
 ---
 
 <section id="contact" class="flex flex-col justify-center items-center gap-12 min-h-screen">
     <div class="flex flex-col text-center w-full">
-        <p class="text-sm text-gray-600">Get in touch</p>
-        <h1 class="font-bold text-3xl">Contact me</h1>
+        <p class="text-sm text-gray-600">{t('contact.touch')}</p>
+        <h1 class="font-bold text-3xl">{t('contact.title')}</h1>
     </div>
     <form method="POST" id="form" class="flex flex-col items-center gap-4 max-w-sm">
         <input
@@ -16,9 +17,9 @@ import Linkedin from './Linkedin.astro'
         <input type="hidden" name="subject" value="New Submission from Web3Forms">
         <input type="checkbox" name="botcheck" id="" style="display: none;">
 
-        <input type="email" name="email" placeholder="Email" class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" required>
-        <input type="text" name="name" placeholder="Name" class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" required>
-        <textarea name="message" placeholder="Message" class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" rows="3"></textarea>
+        <input type="email" name="email" placeholder={t('contact.form.email')} class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" required>
+        <input type="text" name="name" placeholder={t('contact.form.name')} class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" required>
+        <textarea name="message" placeholder={t('contact.form.message')} class="py-3 px-4 block w-full border border-gray-700 text-black rounded-md text-sm focus:border-blue-500 focus:ring-blue-500" rows="3"></textarea>
 
         <span class="h-captcha" data-captcha="true"></span>
 
@@ -26,7 +27,7 @@ import Linkedin from './Linkedin.astro'
             <a href="https://www.linkedin.com/in/julianhm9612" target="_blank" class="flex p-2 border border-black rounded-full text-gray-700 hover:text-black transition-colors" rel="noopener">
                 <Linkedin /> Linkedin
             </a>
-            <button type="submit" class="bg-gray-700 text-white text-sm rounded-full p-3 hover:bg-black transition-colors px-6 w-min">Send</button>
+            <button type="submit" class="bg-gray-700 text-white text-sm rounded-full p-3 hover:bg-black transition-colors px-6 w-min">{t('contact.form.send')}</button>
         </div>
     </form>
 

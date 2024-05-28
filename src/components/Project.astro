@@ -1,4 +1,5 @@
 ---
+import { t } from 'i18next';
 import type { Skill } from '../types/skill'
 import Arcade from './Arcade.astro'
 import Github from './Github.astro'
@@ -32,11 +33,11 @@ const { title, description, img, skills, github, demo } = Astro.props
         </div>
         <div class="flex gap-2 justify-between pt-2">
             <a href={github} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
-                Code <Github />
+                {t('projects.project.code')} <Github />
             </a>
             {demo &&
                 <a href={demo} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
-                    Live demo <Arcade />
+                    {t('projects.project.demo')} <Arcade />
                 </a>
             }
         </div>
