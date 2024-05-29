@@ -5,6 +5,6 @@ import astroI18next from 'astro-i18next';
 // https://astro.build/config
 export default defineConfig({
     site: "https://julianhm9612.github.io",
-    base: "/portfolio",
+    base: "portfolio",
     integrations: [tailwind(), astroI18next()]
 });

@@ -18,7 +18,7 @@ const { title, description, img, skills, github, demo } = Astro.props
 ---
 
 <article class="flex flex-col justify-center items-center gap-4 border border-black rounded-3xl p-5 md:flex-row">
-    <img class="rounded-3xl w-32 md:w-40 lg:w-60" src={img} alt={title} />
+    <img class="rounded-3xl w-32 md:w-40 lg:w-60" src={'/portfolio/' + img} alt={title} />
     <div class="flex flex-col justify-between">
         <div class="flex flex-col items-center gap-2">
             <h1 class="font-bold text-xl">{title}</h1>
