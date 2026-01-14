@@ -1,0 +1,20 @@
+---
+import { t } from 'i18next';
+import Laboratory from './Laboratory.astro'
+import { getLaboratories } from '../services/laboratories'
+
+const laboratories = getLaboratories()
+---
+
+<section id="laboratories" class="flex flex-col justify-center items-center gap-12 min-h-screen">
+    <div class="flex flex-col text-center w-full">
+        <p class="text-sm text-gray-600">{t('laboratories.browse')}</p>
+        <h1 class="font-bold text-3xl">{t('laboratories.title')}</h1>
+    </div>
+
+    <div class="grid gap-4 max-w-5xl md:grid-cols-2">
+        {laboratories.map(
+            laboratory => <Laboratory title={laboratory.title} description={laboratory.description} img={laboratory.img} skills={laboratory.skills} github={laboratory.github} demo={laboratory.demo} />
+        )}
+    </div>
+</section>

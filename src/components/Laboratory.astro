@@ -10,10 +10,11 @@ interface Props {
     description: string
     img: string
     skills: Skill[]
+    github: string
     demo: string
 }
 
-const { title, description, img, skills, demo } = Astro.props
+const { title, description, img, skills, github, demo } = Astro.props
 ---
 
 <article class="flex flex-col justify-center items-center gap-4 border border-black rounded-3xl p-5 md:flex-row">
@@ -31,9 +32,12 @@ const { title, description, img, skills, demo } = Astro.props
             </ul>
         </div>
         <div class="flex gap-2 justify-between pt-2">
+            <a href={github} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
+                {t('laboratories.project.code')} <Github />
+            </a>
             {demo &&
                 <a href={demo} target="_blank" class="flex items-center gap-1 p-2 border border-white rounded-full text-gray-700 text-sm hover:text-black hover:border-black transition-colors" rel="noopener">
-                    {t('projects.project.demo')} <Arcade />
+                    {t('laboratories.project.demo')} <Arcade />
                 </a>
             }
         </div>

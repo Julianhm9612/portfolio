@@ -1,46 +1,22 @@
 [
     {
-        "title": "Spring Boot Cloud, KeyCloak and Angular v17 demo",
-        "description": "An example of spring boot cloud and angular v17",
-        "img": "spring-boot-cloud-angular.png",
+        "title": "MAU - Refugio de paso animal",
+        "description": "A website to adopt, donate and help the Mau Foundation",
+        "img": "mau.jpeg",
         "skills": [
-            { "title": "Java" },
-            { "title": "Spring Boot" },
-            { "title": "Spring Boot Cloud" },
-            { "title": "API Gateway" },
-            { "title": "KeyCloak" },
-            { "title": "PostgreSQL" },
-            { "title": "Jib" },
+            { "title": "NestJs" },
+            { "title": "Python" },
+            { "title": "Flask" },
+            { "title": "Pandas" },
+            { "title": "Tensorflow" },
             { "title": "Docker" },
             { "title": "Angular" },
-            { "title": "Angular Material" }
-        ],
-        "github": "https://github.com/SOA-2",
-        "demo": ""
-    },
-    {
-        "title": "ELK template",
-        "description": "This repository will allow you to build the elk stack within a docker architecture.",
-        "img": "elk.png",
-        "skills": [
-            { "title": "ELK" },
-            { "title": "Docker" }
-        ],
-        "github": "https://github.com/Julianhm9612/docker-elk-stack",
-        "demo": ""
-    },
-    {
-        "title": "Spring Boot demo",
-        "description": "A simple example of log handling in spring boot",
-        "img": "spring-boot-docker.png",
-        "skills": [
-            { "title": "Java" },
-            { "title": "Spring Boot" },
+            { "title": "Angular Material" },
             { "title": "PostgreSQL" },
-            { "title": "Jib" },
-            { "title": "Docker" }
+            { "title": "VPS" },
+            { "title": "CI/CD" },
+            { "title": "Deep Learning" }
         ],
-        "github": "https://github.com/Julianhm9612/spring-boot-logs-api",
-        "demo": ""
+        "demo": "https://refugiomau.org/"
     }
 ]
