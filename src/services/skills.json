@@ -1,5 +1,17 @@
 [
     {
+        "title": "Architecture"
+    },
+    {
+        "title": "Micro-Frontends"
+    },
+    {
+        "title": "Microservices"
+    },
+    {
+        "title": "Integration architecture"
+    },
+    {
         "title": "HTML"
     },
     {
@@ -90,15 +102,6 @@
         "title": "JWT"
     },
     {
-        "title": "Kubernetes"
-    },
-    {
-        "title": "Docker"
-    },
-    {
-        "title": "Elastic stack"
-    },
-    {
         "title": "PostgreSQL"
     },
     {
@@ -114,12 +117,12 @@
         "title": "MySQL"
     },
     {
-        "title": "Micro-Frontends"
+        "title": "Docker"
     },
     {
-        "title": "Microservices"
+        "title": "Kubernetes"
     },
     {
-        "title": "Integration architecture"
+        "title": "Elastic stack"
     }
 ]

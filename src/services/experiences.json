@@ -9,7 +9,7 @@
             { "title": "ReactJs" },
             { "title": "VueJS" },
             { "title": "AngularJS" },
-            { "title": "Lite" },
+            { "title": "Lit" },
             { "title": "Jest" },
             { "title": "Cypress" }
         ]

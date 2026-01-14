@@ -4,6 +4,7 @@
     "menu": [
       "About",
       "Projects",
+      "Labs",
       "Experience",
       "Skills",
       "Contact"
@@ -20,15 +21,24 @@
     "more": "Get to know more",
     "about": "About me",
     "experience": "Experience",
-    "years": "5+ years",
+    "years": "10+ years",
     "jobTitle": "Fullstack development",
     "education": "Education",
     "educationTitle": "Informatics Engineering",
-    "summary": "I am a Full Stack Developer with more than 5 years of experience. I am currently focused on frontend development and learning react and astro. I love sharing knowledge and learning from others. I am very passionate about video games, painting and of course, technology."
+    "englishLevel": "English B1+",
+    "summary": "I am a Full Stack Developer with more than 10 years of experience. I am currently focused on frontend development and learning react and astro. I love sharing knowledge and learning from others. I am very passionate about video games, painting and of course, technology."
   },
   "projects": {
     "browse": "Browse my recent",
     "title": "Projects",
+    "project": {
+      "code": "Code",
+      "demo": "Live demo"
+    }
+  },
+  "laboratories": {
+    "browse": "Browse my recent",
+    "title": "Laboratories",
     "project": {
       "code": "Code",
       "demo": "Live demo"
